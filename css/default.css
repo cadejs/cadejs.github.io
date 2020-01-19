@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* default.css for Cjustads/Project1/ */
+/* default.css for Person Website */
 
 
 
@@ -26,9 +26,6 @@ header {
 	background: white;
 }
 
-.centerwebsite{
-	background: #00c6c6;
-}
 
 
 
@@ -40,32 +37,10 @@ ul {
 }
 
 
-nav{
-padding-left:5em;
-padding-right:5em;
-text-align: center;
-height:200px;
-border-style:groove;
-border-radius: 150px;
-border-color:black;
-width: 40%;
- padding: 25px 50px;
- background-color: #9ac59e;
-}
-
-
-
-
 .center {
 	margin: 25px;
 }
 
 footer {
-	margin: 100px 25px 20px;
-	position: relative;
-	float: left;
-	width:50%;
 
-    text-align: center;    
-    border-style: solid;
 }
