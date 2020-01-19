@@ -21,46 +21,16 @@ header {
 	float: center;
 }
 
-#mstache {
-	float: right;	
-	
-}
+
 .main { 
-	background: #009a9a;
+	background: white;
 }
 
 .centerwebsite{
 	background: #00c6c6;
 }
-#face {
-
-	margin: 50px;
-	float: right;
-	width: 50%;
-	clear: both;
-	border-color: grey;
-	border: solid;
-}
 
 
-img {
-	float:right;
-	width: 30%;	
-	margin: 25px;
-}
-
-#painting {
-	
-	float: right;
-	width: 50%;
-	clear: both;
-}
-
-h1 {
-	margin-top: 25px;
-	margin-bottom:25px;
-	text-align: center;
-}
 
 h2 {
 	float: center;
