@@ -26,6 +26,7 @@ img {
 	border-radius: 50%;
 	float: left;
 	padding: 50px;
+	padding-bottom: 300px;
 }
 .main { 
 	background: white;
@@ -85,7 +86,7 @@ h2 {
 	display:inline-block;
 	margin: 25px;
 	width:800px;
-	float: left;
+	
 }
 
 footer {
