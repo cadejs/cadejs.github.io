@@ -25,6 +25,7 @@ header {
 img {
 	border-radius: 50%;
 	float: left;
+	padding: 50px;
 }
 .main { 
 	background: white;
