@@ -2,7 +2,6 @@
 /* default.css for Person Website */
 
 
-
 body {
 	
 	margin-left: auto;
@@ -76,6 +75,7 @@ h2 {
 
 .center {
 	margin: 25px;
+	width:400px
 }
 
 footer {
