@@ -22,6 +22,9 @@ header {
 	font-style: italic;
 }
 
+img {
+	border-radius: 50%;
+}
 .main { 
 	background: white;
 }
