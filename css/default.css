@@ -75,7 +75,8 @@ h2 {
 
 .center {
 	margin: 25px;
-	width:400px
+	width:600px;
+	float: right;
 }
 
 footer {
