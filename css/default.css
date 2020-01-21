@@ -23,21 +23,25 @@ header {
 	font-style: italic;
 }
 
-
 .main { 
 	background: white;
 }
 
+/*nav bar section*/
+ul {
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+}
 
-
+li a {
+  display: block;
+  width: 60px;
+}
 
 h2 {
 	float: center;
 }
-ul {
-	 padding: 10px 20px;
-}
-
 
 .center {
 	margin: 25px;
