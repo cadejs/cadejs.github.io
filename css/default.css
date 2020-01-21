@@ -24,6 +24,7 @@ header {
 
 img {
 	border-radius: 50%;
+	float: left;
 }
 .main { 
 	background: white;
