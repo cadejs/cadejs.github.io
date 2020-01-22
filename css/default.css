@@ -43,8 +43,9 @@ ul.topnav li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 25px 25px;
+  padding: 40px 40px;
   text-decoration: none;
+  text-align:center;
 }
 ul.topnav li a:hover:not(.active) {background-color: #989898;}
 
