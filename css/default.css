@@ -21,6 +21,9 @@ header {
 	font: optima;
 	font-style: italic;
 }
+.maintitle{
+	float:center;
+}
 
 img {
 	border-radius: 50%;
