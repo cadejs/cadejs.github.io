@@ -16,10 +16,11 @@ body {
 }
 header {
 	background-color: white;
-	width:80%;
+	width:100%;
 	float: right;
 	font: optima;
 	font-style: italic;
+	text-align:center;
 }
 .maintitle{
 	float:center;
@@ -42,7 +43,7 @@ ul.topnav li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 5px 5px;
+  padding: 25px 25px;
   text-decoration: none;
 }
 ul.topnav li a:hover:not(.active) {background-color: #989898;}
@@ -58,7 +59,7 @@ ul {
   	margin: 0;
   	padding: 0;
   	overflow: hidden;
-  	background-color: #white;
+  	background-color: #grey;
   	width:100%;
   	float: center;
 }
@@ -80,9 +81,7 @@ li a:hover {
   background-color: #989898;
   color: #000000;
 }
-h2 {
-	float: center;
-}
+
 
 .center {
 	display:inline-block;
