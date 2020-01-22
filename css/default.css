@@ -42,7 +42,7 @@ ul.topnav li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 5px 5px;
   text-decoration: none;
 }
 ul.topnav li a:hover:not(.active) {background-color: #989898;}
@@ -59,7 +59,7 @@ ul {
   	padding: 0;
   	overflow: hidden;
   	background-color: #white;
-  	width:60%;
+  	width:100%;
   	float: center;
 }
 li {
