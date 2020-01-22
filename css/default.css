@@ -89,7 +89,12 @@ h2 {
 	
 }
 .copyright{
-	float:right
+	float:right;
+	width: 20%;
+}
+.email{
+	float: left;
+	width:80%;
 }
 footer {
 
