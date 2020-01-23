@@ -48,6 +48,7 @@ h1
 
 .right
 {
+	background: green;
 	float:right;
 	height:100%;
 	position:relative;
@@ -70,7 +71,7 @@ h1
 
 .me-img
 {
-	background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/36334/profile/profile-512_4.jpg) no-repeat center center ;
+	background:#green ;
 	background-size:100%;
   background-position:0px;
 	border-radius:100%;
