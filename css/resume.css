@@ -48,7 +48,6 @@ h1
 
 .right
 {
-	background: green;
 	float:right;
 	height:100%;
 	position:relative;
@@ -71,7 +70,7 @@ h1
 
 .me-img
 {
-	background:#green ;
+	
 	background-size:100%;
   background-position:0px;
 	border-radius:100%;
