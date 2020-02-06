@@ -26,7 +26,7 @@ header {
 	float:center;
 }
 
-img {
+.center img {
 	border-radius: 50%;
 	float: left;
 	padding: 50px;
