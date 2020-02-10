@@ -38,7 +38,8 @@ header {
 /*nav bar section*/
 
 /*setting up for mobile users*/
-ul.topnav li {float: left;}
+ul.topnav li {float: left; 
+}
 ul.topnav li a {
   display: block;
   color: black;
@@ -46,8 +47,10 @@ ul.topnav li a {
   padding: 40px 40px;
   text-decoration: none;
   text-align:center;
+  
+  
 }
-ul.topnav li a:hover:not(.active) {background-color: #989898;}
+ul.topnav li a:hover:not(.active) {background-color: background: rgba(0,0,0,.025);;}
 
 ul.topnav li a.active {background-color: #989898;}
 
@@ -60,9 +63,13 @@ ul {
   	margin: 0;
   	padding: 0;
   	overflow: hidden;
-  	background-color: #grey;
+  	background-color: background: rgba(0,0,0,.025);;
   	width:100%;
   	float: center;
+  	border: solid;
+	background:rgba(0,0,0,.3);
+  	
+  	
 }
 li {
 	float: left;
