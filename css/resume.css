@@ -124,7 +124,7 @@ h1
 
 .inner p
 {
-	color:rgba(0,0,0,.75);
+	color:rgba(0,0,0,.5);
 }
 
 .inner p em
@@ -139,6 +139,7 @@ h1
 }
 .conf{
 	 margin-left: 30px;
+	 color:rgba(0,0,0,.5);
 }
 
 
