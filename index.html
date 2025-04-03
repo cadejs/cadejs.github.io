@@ -3,43 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cade JS</title>
+  <title>Cade Justad-Sandberg</title>
   <style>
     body {
       font-family: Georgia, 'Times New Roman', Times, serif;
-      max-width: 700px;
-      margin: 0 auto;
+      background-color: #f4f1e6;
+      color: #333;
+      margin: 0;
       padding: 2rem;
+      max-width: 700px;
       line-height: 1.6;
-      background-color: #fdfdfd;
-      color: #222;
     }
 
-    img {
-      width: 150px;
-      border-radius: 100px;
-      display: block;
-      margin: 0 auto 1rem;
-    }
-
-    h1, h2 {
-      text-align: center;
-    }
-
-    .links {
-      text-align: center;
+    header {
+      display: flex;
+      align-items: center;
       margin-bottom: 2rem;
     }
 
+    .logo {
+      height: 60px;
+      width: auto;
+      margin-right: 1rem;
+    }
+
+    .title {
+      font-size: 1.5rem;
+      margin: 0 auto;
+      text-align: center;
+      flex: 1;
+    }
+
+    .intro {
+      margin-bottom: 2rem;
+    }
+
+    .links {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
     .links a {
-      margin: 0 10px;
       text-decoration: none;
+      margin: 0 10px;
       color: #0056b3;
     }
 
     form {
       display: flex;
       flex-direction: column;
+      max-width: 100%;
     }
 
     input[type="text"] {
@@ -59,47 +72,38 @@
     }
 
     input[type="submit"]:hover {
-      background-color: #004494;
+      background-color: #003f88;
     }
 
-    .bio {
-      margin: 2rem 0;
+    .note {
+      margin-bottom: 1rem;
+      font-style: italic;
     }
   </style>
 </head>
 <body>
 
-  <img src="your-photo.jpg" alt="Cade JS Photo" />
-  <h1>Cade KS</h1>
+  <header>
+    <img src="logo.png" alt="Cade Justad-Sandberg logo" class="logo" />
+    <h1 class="title">Cade Justad-Sandberg</h1>
+  </header>
+
+  <div class="intro">
+    <p>I'm Cade — a data scientist and engineer working on machine learning and innovation.</p>
+  </div>
 
   <div class="links">
     <a href="https://github.com/cadejs" target="_blank">GitHub</a>
     <a href="https://linkedin.com/in/cadejs" target="_blank">LinkedIn</a>
   </div>
 
-  <div class="bio">
-    <h2>🚀 Full-Stack Data Scientist | ML Researcher | Data Engineer</h2>
-    <p>I'm a <strong>full-stack data scientist</strong> with a background in <strong>ML research</strong> and <strong>data engineering</strong>, known for turning complex problems into high-impact, production-ready systems. I specialize in owning the full lifecycle—from early exploratory analysis and prototyping to <strong>deploying scalable, maintainable ML pipelines</strong> in production environments.</p>
-
-    <p>My work spans multiple domains:</p>
-    <ul>
-      <li><strong>Geospatial & Remote Sensing</strong> (NASA): Terrain analysis, flood risk modeling, and spatial feature engineering</li>
-      <li><strong>Energy Forecasting</strong> (DOE): Probabilistic time-series modeling and demand simulation</li>
-      <li><strong>Healthcare & Location Intelligence</strong> (CSL): Site selection models for medical centers, using spatial and demographic features</li>
-      <li><strong>Startup Ops & Growth</strong> (Booster): Simulation tools, pricing optimization, and causal modeling for business decisions</li>
-    </ul>
-
-    <p>I’m deeply fluent in both <strong>modeling</strong> and <strong>infrastructure</strong>:</p>
-    <ul>
-      <li>Production ML (regression, classification, forecasting, optimization)</li>
-      <li>Data engineering workflows (batch/streaming)</li>
-    </ul>
+  <div class="note">
+    <p>I’ve found some of my favorite books, authors, scientific papers, and blogs through personal recommendation. If something’s made you think deeply, drop it in the form below.</p>
   </div>
 
   <form action="https://docs.google.com/forms/d/e/1FAIpQLScCe_t-kI7IfOUDwQ1JYZ_KL9nM9a9sXZXcNTcrzvJ0n4ikNQ/formResponse" method="POST" target="_blank">
-    <label for="article">Suggest an article (max 100 characters):</label>
-    <input type="text" id="article" name="entry.1142728910" maxlength="100" required placeholder="https://example.com/article" />
-    <input type="submit" value="Submit" />
+    <input type="text" id="article" name="entry.1142728910" maxlength="100" required placeholder="Paste a link here (max 100 characters)" />
+    <input type="submit" value="Submit Recommendation" />
   </form>
 
 </body>
