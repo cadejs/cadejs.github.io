@@ -5,79 +5,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cade Justad-Sandberg</title>
   <style>
-    body {
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      background-color: #f4f1e6;
-      color: #333;
-      margin: 0;
-      padding: 2rem;
-      max-width: 700px;
-      line-height: 1.6;
+    :root {
+      --bg: #f4f1e6;         /* Light beige background */
+      --text: #222222;
+      --accent: #555555;
+      --link: #0056b3;
     }
 
-    header {
-      display: flex;
-      align-items: center;
-      margin-bottom: 2rem;
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      line-height: 1.7;
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 2rem;
     }
 
     .logo {
+      float: left;
+      margin-right: 1rem;
       height: 60px;
       width: auto;
-      margin-right: 1rem;
     }
 
-    .title {
-      font-size: 1.5rem;
-      margin: 0 auto;
-      text-align: center;
-      flex: 1;
+    h1 {
+      font-size: 1.7rem;
+      font-weight: normal;
+      border-bottom: 1px solid var(--accent);
+      padding-bottom: 0.2rem;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      text-align: left;
     }
 
-    .intro {
+    .intro, .note {
       margin-bottom: 2rem;
+    }
+
+    .note {
+      font-style: italic;
+      color: var(--accent);
     }
 
     .links {
       margin-bottom: 2rem;
-      text-align: center;
     }
 
     .links a {
       text-decoration: none;
-      margin: 0 10px;
-      color: #0056b3;
+      color: var(--link);
+      margin-right: 1rem;
     }
 
     form {
       display: flex;
       flex-direction: column;
-      max-width: 100%;
     }
 
     input[type="text"] {
-      padding: 0.5rem;
-      font-size: 1rem;
+      background: #ffffff;
+      color: var(--text);
       border: 1px solid #ccc;
+      padding: 0.5rem;
       margin-bottom: 1rem;
+      font-family: monospace;
     }
 
     input[type="submit"] {
-      background-color: #0056b3;
+      background: #333;
       color: white;
-      padding: 0.5rem;
-      font-size: 1rem;
       border: none;
+      padding: 0.5rem;
       cursor: pointer;
     }
 
     input[type="submit"]:hover {
-      background-color: #003f88;
-    }
-
-    .note {
-      margin-bottom: 1rem;
-      font-style: italic;
+      background: #111;
     }
   </style>
 </head>
@@ -85,11 +89,11 @@
 
   <header>
     <img src="logo.png" alt="Cade Justad-Sandberg logo" class="logo" />
-    <h1 class="title">Cade Justad-Sandberg</h1>
+    <h1>Cade Justad-Sandberg</h1>
   </header>
 
   <div class="intro">
-    <p>I'm Cade — a data scientist and engineer working on machine learning and innovation.</p>
+    <p>I’m Cade — a data scientist and engineer working on machine learning and innovation.</p>
   </div>
 
   <div class="links">
@@ -102,7 +106,7 @@
   </div>
 
   <form action="https://docs.google.com/forms/d/e/1FAIpQLScCe_t-kI7IfOUDwQ1JYZ_KL9nM9a9sXZXcNTcrzvJ0n4ikNQ/formResponse" method="POST" target="_blank">
-    <input type="text" id="article" name="entry.1142728910" maxlength="100" required placeholder="Paste a link here (max 100 characters)" />
+    <input type="text" name="entry.1142728910" maxlength="100" required placeholder="Paste a link here (max 100 characters)" />
     <input type="submit" value="Submit Recommendation" />
   </form>
 
